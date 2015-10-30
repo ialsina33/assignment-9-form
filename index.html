@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>500 Days of Summer Quiz</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+	
+	<h1>500 Days of Summer Quiz</h1>
+	<p>Welcome! Here's a quiz on the best movie to ever exist: 500 Days of Summer. Test your knowledge on the actors, plot, soundtrack and just about everything that makes it so great.</p>
+	<a href="https://en.wikipedia.org/wiki/500_Days_of_Summer">Wikipedia page on 500 Days of Summer</a>
+
+	<form class="form-horizontal">
+		
+		<div class="form-group">
+			<label class="col-sm-2 control-label" 
+			for="inputActor">Who is the lead actor and plays the role of Tom Hansen?</label>
+			<div class="col-sm-10">
+			<input class="form-control" type="text" id="inputActor" 
+				placeholder="Actor's Name">
+			</div>
+		</div>
+	
+		<div class="form-group">
+			<label class="col-sm-2 control-label" 
+			for="inputActress">Who is the lead actress and plays the role of Summer Finn?</label>
+			<div class="col-sm-10">
+			<input class="form-control" type="text" id="inputActress" 
+				placeholder="Actress's Name">
+			</div>
+		</div>
+	
+		<!-- Checkboxes without the question -->
+		
+		<div class="form-group">
+		
+		<label class="col-sm-2 control-label" 
+		for="selectAwards">What nominations did the movie receive at the 67th Golden Globe Awards?</label>
+		
+		<div class="col-sm-10 col-sm-offset-2">
+		<div class="checkbox">
+		<label>
+				<input type="checkbox" id="selectAwards">
+					Best Motion Picture - Musical or Comedy <!-- the name of the checkbox -->
+			</label>
+		
+		
+			<label>
+				<input type="checkbox" id="selectAwards">
+					Best Actress - Musical or Comedy <!-- the name of the checkbox -->
+			</label>
+		
+			<label>
+				<input type="checkbox" id="selectAwards">
+					Best Actor - Musical or Comedy <!-- the name of the checkbox -->
+			</label>
+	
+			<label>
+				<input type="checkbox" id="selectAwards">
+					Best Screenplay <!-- the name of the checkbox -->
+			</label>
+		</div>
+		</div>
+		</div>
+	
+		<!-- radio buttons -->
+		
+		<div class="form-group">
+		
+		<label class="col-sm-2 control-label" 
+		for="selectBoxOffice">How much money did it make worldwide at the box office?</label>
+		
+		<div class="col-sm-10 col-sm-offset-2">
+		<div class="radio">
+			<label>
+				<input name="options" type="radio" id="selectBoxOffice">
+					$25.8 million <!-- the name of the radio button -->
+			</label>
+		
+			<label>
+				<input name="options" type="radio" id="selectBoxOffice">
+					$60.7 million <!-- the name of the radio button -->
+			</label>
+	
+			<label>
+				<input name="options" type="radio" id="selectBoxOffice">
+					$127 million <!-- the name of the radio button -->
+			</label>
+		
+			<label>
+				<input name="options" type="radio" id="selectBoxOffice">
+					$86.5 million <!-- the name of the radio button -->
+			</label>
+		</div>
+		</div>
+		</div>
+		
+		
+		<!-- dropdown menu question -->
+		<div class="form-group">
+		
+			<label class="col-sm-2 control-label"
+			for="selectSite">What's the career Tom is trained in and wants to pursue?</label>
+			<div class="col-sm-10">
+			<select class="form-control" id="selectSite">
+				<option>Choose...</option>
+				<option>Construction</option>
+				<option>Painting</option>
+				<option>Music</option>
+				<option>Architecture</option>
+				<option>Computer Science</option>
+				<option>Medicine</option>
+				<option>Journalism</option>
+				<option>Photography</option>
+				<option>Business</option>
+			
+			</select>
+			</div>
+		</div>
+		
+		
+	
+		<!-- text box question for paragraphs -->
+		<div class="form-group">
+			<label class="col-sm-2 control-label"
+			for="inputComments">What is your favorite song from the movie's soundtrack and why?</label>
+			
+			<div class="col-sm-10">
+			<textarea class="form-control" rows="5" id="inputComments">
+			</textarea>
+			</div>
+		</div>
+		
+	
+		<!-- Submit and reset button -->
+		<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+	
+			<input class="btn btn-default" 
+				type="submit" value="submit">
+		
+			<input class="btn btn-default"
+				type="reset" value="reset">
+		</div>
+		</div>
+	</form>
+
+
+</div>
+</div>	
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
